@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins';font-size: 14px;
+}
+
+.header{
+    background-color: #000;
+    height: 92vh;
+}
+
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fff;
+  }
+  
+  header li {
+    float: left;
+  }
+  
+  header  li a {
+    display: block;
+    color: #9399A8;
+    text-align: center;
+    padding: 30px 16px;
+    text-decoration: none;
+    transition: color 0.7s;
+  }
+  
+  header li a:hover {
+    color: #111;
+  }
+
+  .img{
+      margin-top: 5px;
+      margin-left: 500px;
+  }
+
+  .navi{
+      margin-left: 900px;
+  }
+
+  .par{
+      background: url(https://newevolutiondesigns.com/images/freebies/city-wallpaper-32.jpg);
+      height: 92vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    background-position: center;
+  }
+  
+    @media only screen and (max-device-width: 1366px) {
+    .par {
+      background-attachment: scroll;
+    }
+  }
+
+  .biv{
+      height: 92vh;
+      width: 750px;
+      background-color: #10385da4;
+      color: #fff;
+      z-index: 0;
+  }
+
+  .bou{
+      padding-top: 300px;
+      padding-left: 300px;
+      font-size: 40px;
+  }
+
+  .qaaq{
+      font-weight: bold;
+  }
+
+  .baab{
+      font-weight: lighter;
+  }
+
+  .nav{
+    position: fixed;
+    top: 0;
+  }
+
+  .spe{
+      padding-left: 300px;
+      font-weight: lighter ;
+  }
+
+  .sek{
+      height: 55vh;
+      width: 100%;
+  }
+
+
+  .column {
+    float: left;
+    width: 39.4%;
+    padding: 0px;
+    height: 55vh;
+  }
+
+  .column1 {
+    float: left;
+    width: 60.6%;
+    padding: 0px;
+    margin: 0;
+    height: 55vh;
+  }
+  
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+  .pr{
+      padding: 70px 400px;
+      font-size: 40px;
+      color: #00305B;
+  }
+
+
+
+  .sek .brin , .iki , .uc , .dr , .be , .al{
+    list-style-type: square;
+    padding-left: 50px;
+    padding-top: 20px;
+  }
+
+  .sek .brin h2::before{
+      content: "■    ";
+      color:#41B7C4;
+  }
+
+  .sek .iki h2::before{
+    content: "■    ";
+    color:#41B7C4;
+}
+
+.sek .uc h2::before{
+    content: "■    ";
+    color:#41B7C4;
+}
+
+.sek .dr h2::before{
+    content: "■    ";
+    color:#41B7C4;
+}
+
+.sek .be  h2::before{
+    content: "■    ";
+    color:#41B7C4;
+}
+
+.sek .al  h2::before{
+    content: "■    ";
+    color:#41B7C4;
+}
+
+
+
+  .are{
+      font-weight: lighter;
+      margin-top: -15px;
+  }
+
+  .sek .column1 p{
+      color: #00305B;
+  }
+
+  .sek .column1 div{
+      display: inline-block;
+      width: 300px;
+      height: 100px;
+  }
+
+  .column1 div{
+      padding-top: 70px;
+  }
+
+  .column1 h2{
+      color: #3A5F80;
+  }
+
+  .goy{
+      background-color: #00305B;
+      height: 45vh;
+  }
